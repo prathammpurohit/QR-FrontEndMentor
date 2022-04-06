@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo&family=Cormorant+Garamond:ital@1&family=Croissant+One&family=EB+Garamond&family=Fraunces:wght@100&family=Hind&family=Inria+Serif&family=Lobster&family=Luxurious+Roman&family=Marck+Script&family=MedievalSharp&family=Merriweather&family=Noto+Serif+JP&family=Open+Sans&family=Outfit&family=Playfair+Display+SC&family=Playfair+Display:ital,wght@1,500&family=Quicksand&family=Roboto&family=Sacramento&family=Sedgwick+Ave&family=Source+Serif+Pro&family=Special+Elite&family=Tenor+Sans&family=The+Nautigal:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>QR</title>
+    <style>
+        html {
+            font-size: 18px;
+        }
+
+        :root {
+            --white: hsl(0, 0%, 100%);
+            --light-gray: hsl(212, 45%, 89%);
+            --grayish-blue: hsl(220, 15%, 55%);
+            --dark-blue: hsl(218, 44%, 22%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            cursor: default;
+            box-sizing: border-box;
+            font-size: 1rem;
+            overflow: hidden;
+            font-family: Outfit;
+        }
+
+        #MainContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: var(--light-gray);
+        }
+
+        #Container {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            width: 17.8rem;
+            height: 26rem;
+            background-color: var(--white);
+            border-radius: 1rem;
+        }
+
+        #Container img {
+            height: 15rem;
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+        }
+
+        #Container h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--dark-blue);
+            font-weight: bolder;
+        }
+
+        #Container p {
+            text-align: center;
+            color: var(--grayish-blue);
+        }
+    </style>
+</head>
+
+<body>
+    <main id="MainContainer">
+
+            <div id="Container">
+
+                <img src="images/image-qr-code.png" alt="" />
+
+                <h1>Improve your front-end skills by building projects</h1>
+
+                <p>
+                    Scan the QR code to visit FrontEnd Mentor and take your coding skills
+                    to next level
+                </p>
+
+        </div>
+    </main>
+</body>
+
+</html>
